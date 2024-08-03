@@ -596,7 +596,7 @@ async function prepareStockImages() {
   for (item of [...stockValues].reverse()) {
     if (item[1] == true) {
       price = 0;
-      imageName = "images/" + item[2] + ".jpg";
+      imageName = "images/" + item[2] + ".png";
       if (item[0][item[0].length - 1] != undefined) {
         price = item[0][item[0].length - 1];
       }
