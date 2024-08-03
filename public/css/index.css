@@ -74,7 +74,7 @@ h1 {
 .stockDiv {
   width: 160px;
   height: 85px;
-  margin: 5px 10px 5px 10px;
+  margin: 10px 10px 10px 10px;
   text-align: center;
   pointer-events: none;
 }
@@ -197,6 +197,7 @@ h1 {
 }
 #parent {
   display: flex;
+  padding-right: 50px;
 }
 #cashDisplay {
   text-align: center;
@@ -391,3 +392,114 @@ input:checked + .slider:before {
   text-align: center;
   vertical-align: middle;
 }*/
+body {
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #ececec;
+}
+
+.dark-mode {
+  background-color: #1c1c1c;
+  color: #eaeaea;
+}
+body.dark-mode #stockReport:active {
+  background-color: #1c1c1c;
+}
+body.dark-mode #stockGraph{
+    background-color: #2b2a2a;
+    border-color: #333;
+}
+.dark-mode .investment-area,
+.dark-mode .description-box-holder,
+.dark-mode .stockPanel,
+.dark-mode .alert-box {
+  background-color: #333;
+  color: #eaeaea;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.investment-area,
+.description-box-holder,
+.stockPanel,
+.alert-box {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(156, 138, 138, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.dark-mode .stockPanelButtonSell {
+  background-color: rgb(228, 113, 113);
+  color: rgb(197, 0, 0);
+  
+}
+.dark-mode .stockPanelButtonSell:hover {
+  background-color: red;
+ color: rgb(255, 255, 255);
+}
+.dark-mode .stockPanelButtonSell:active {
+  background-color: rgb(187, 0, 0);
+  border: rgb(197, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.dark-mode .stockPanelButtonBuy {
+  background-color: rgb(26, 190, 26);
+  color: rgb(0, 82, 0);
+  
+}
+.dark-mode .stockPanelButtonBuy:hover {
+  background-color: green;
+  color: white;
+}
+.dark-mode .stockPanelButtonBuy:active {
+  background-color: rgb(0, 82, 0);
+  border: rgb(0, 92, 0);
+  color: white;
+}
+
+.dark-mode th,
+.dark-mode td {
+  border-color: #555;
+}
+/* Toggle Button Styles */
+.toggle-mode {
+  font-size: 18px; /* Increased font size */
+  padding: 12px 24px; /* Increased padding */
+  border-radius: 30px; /* Rounded corners */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#toggle-mode{
+  width: 860px;
+  height: 46px;
+  font-size: larger;
+  border: rgb(0, 8, 77);
+  background-color: rgb(48, 64, 202);
+  color: white;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 3px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.dark-mode #toggle-mode {
+  background-color: #548bf3;
+  color: #333333;
+}
+
+.dark-mode #toggle-mode:hover {
+  background-color: #2a6deb;
+}
+#toggle-mode:hover {
+  background-color: rgb(30, 14, 136);
+}
+#toggle-mode:active {
+  background-color: rgb(20, 10, 95);
+}

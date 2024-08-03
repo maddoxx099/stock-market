@@ -5,7 +5,7 @@ document.getElementById("stockSort").addEventListener("change", function() {
 });
 function drawInvestors() {
   const scoreDiv = document.getElementById("leaderboard");
-  let tableHeaders = ["Rank", "Username", "Money(In Bank)","Money(Total if all stocks were sold right now)","Profit(Since chapter 264)"];
+  let tableHeaders = ["Rank", "Username", "Money(In Bank)","Money(Total if all stocks were sold right now)","Profit(Since last arc)"];
   let scoreboardTable = document.createElement("table"); 
   scoreboardTable.className = "scoreboardTable";
   let scoreboardTableHead = document.createElement("thead"); 

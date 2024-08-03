@@ -17,25 +17,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  </head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8DTEXZK3ME"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <style>
 
-  gtag('config', 'G-8DTEXZK3ME');
-</script>
-  <body>
+    </style>
+  </head>
+  <body class="dark-mode">
     <div class="alert-box">
       <p class="alert"></p>
-  </div>
-    <div class="investment-area" id="stockBox" style="width: 830px">
-        <label
-        for="chapterNumTable"
-        style="margin-left: 25px; font-size: large; font-style: bold">
-        <strong>Arc Number:</strong></label>
+    </div>
+    <div style="margin-top: 20px;">
+      <button id="toggle-mode">Switch to Light Mode</button>
+    </div> 
+    <div class="investment-area" id="stockBox" style="width: 830px; margin-left: 50px;">
+      <label for="chapterNumTable" style="margin-left: 25px; font-size: large; font-style: bold"><strong>Arc Number:</strong></label>
       <table id="chapterNumTable">
         <tr align="left">
           <th style="width: 13px"></th>
@@ -71,101 +65,71 @@
       </div>
     </div>
     <div class="description-box-holder">
-    <div class="description-box">
-      <br>
-      <div class = "buttonHolder"></div>
-      <h1 style="color: red">
-        WARNING: THIS SITE DOES NOT DEAL WITH REAL MONEY THIS IS PURELY FOR FUN
-      </h1>
-      <h1 class="description-title">Welcome to Jujutsu Investing!</h1>
-      <p class="description">
-        Do you want to put your stocks in Gojo? Kashimo? Yuta? Whoever you want
-        to invest in we have you covered, simply select who to invest in and
-        invest! Their stock will go up if they are doing good or are winning
-        against/beat someone. Their stock will go down if they are doing bad or losing
-        against someone or are killed.(The toggles next to names toggle visibility on the stock graph)
-        Stocks close at 11pm EST on Wednesday(right before leaks drop) and reopen ASAP(within a day at most)
-        (Profit is since chapter 264)
-      </p>
-      <h2 style="text-align: center;">You only get $60 dollars per day so invest wisely!</h2>
-      <h2 style="text-align: center;color: red;">WARNING: Any stocks bought without an account/any progress made will not carry over to an account</h2>
-      <div id="toggleAllBox">
-      <button class="toggleAll" onclick="toggleAll(0)">Hide all stocks</button>
-      <button class="toggleAll" onclick="toggleAll(1)">Show all stocks</button>
-      <button class="toggleAll" onclick="toggleAll(2)">Toggle visibility of owned stocks</button>
-      <button class="toggleAll" onclick="toggleAll(3)">Toggle visibility of unowned stocks</button>
+      <div class="description-box">
+        <br>
+        <div class="buttonHolder"></div>
+        <h1 style="color: red">WARNING: THIS SITE DOES NOT DEAL WITH REAL MONEY THIS IS PURELY FOR FUN</h1>
+        <h1 class="description-title">Welcome to the Stock Market of Halcyon Days!</h1>
+        <p class="description">
+          Invest your stocks in who will be the GOAT after a match and who will be the Fraud.
+        </p>
+        <h2 style="text-align: center;">You only get $60 dollars per day so invest wisely!</h2>
+        <h2 style="text-align: center;color: red;">WARNING: Any stocks bought without an account/any progress made will not carry over to an account</h2>
+        <div id="toggleAllBox">
+          <button class="toggleAll" onclick="toggleAll(0)">Hide all stocks</button>
+          <button class="toggleAll" onclick="toggleAll(1)">Show all stocks</button>
+          <button class="toggleAll" onclick="toggleAll(2)">Toggle visibility of owned stocks</button>
+          <button class="toggleAll" onclick="toggleAll(3)">Toggle visibility of unowned stocks</button>
+        </div>
       </div>
     </div>
-  </div>
-      <div id="stockSidePanel" style="width: 550px">
-        <!--<label for="fraudMode" id="fraudModeLabel">Enable Slander Mode</label>
+    <div id="stockSidePanel" style="width: 550px">
+      <!--<label for="fraudMode" id="fraudModeLabel">Enable Slander Mode</label>
         <input type="checkbox" name="Fraud Mode" id="fraudMode" onclick="enableFraud()">-->
-        <div id="stockSidePanelMoney"></div>
-        <div>
-          <label
-            id="sidePanelBuyButtonLabel"
-            class="sidePanelButtonLabel"
-            for="sidePanelBuyButtons"
-            >Currently buying stocks 1 at a time</label
-          >
-          <div id="sidePanelBuyButtons">
-            <button class="stockSidePanelButtonBuy" onclick="changeBuyNum(1)">
-              1
-            </button>
-            <button class="stockSidePanelButtonBuy" onclick="changeBuyNum(10)">
-              10
-            </button>
-            <button class="stockSidePanelButtonBuy" onclick="changeBuyNum(100)">
-              100
-            </button>
-            <button
-              class="stockSidePanelButtonBuy"
-              onclick="changeBuyNum(1000000000000000)"
-            >
-              MAX
-            </button>
-          </div>
-          <label
-            id="sidePanelSellButtonLabel"
-            class="sidePanelButtonLabel"
-            for="sidePanelSellButtons"
-            >Currently selling stocks 1 at a time</label
-          >
-          <div id="sidePanelSellButtons">
-            <button class="stockSidePanelButtonSell" onclick="changeSellNum(1)">
-              1
-            </button>
-            <button
-              class="stockSidePanelButtonSell"
-              onclick="changeSellNum(10)"
-            >
-              10
-            </button>
-            <button
-              class="stockSidePanelButtonSell"
-              onclick="changeSellNum(100)"
-            >
-              100
-            </button>
-            <button
-              class="stockSidePanelButtonSell"
-              onclick="changeSellNum(1000000000000000)"
-            >
-              MAX
-            </button>
-          </div>
+      <div id="stockSidePanelMoney"></div>
+      <div>
+        <label id="sidePanelBuyButtonLabel" class="sidePanelButtonLabel" for="sidePanelBuyButtons">Currently buying stocks 1 at a time</label>
+        <div id="sidePanelBuyButtons">
+          <button class="stockSidePanelButtonBuy" onclick="changeBuyNum(1)">1</button>
+          <button class="stockSidePanelButtonBuy" onclick="changeBuyNum(10)">10</button>
+          <button class="stockSidePanelButtonBuy" onclick="changeBuyNum(100)">100</button>
+          <button class="stockSidePanelButtonBuy" onclick="changeBuyNum(1000000000000000)">MAX</button>
         </div>
-        <form method="GET" action="https://docs.google.com/forms/d/e/1FAIpQLSfWVcNtQKfH30nhsetrvV7lHol_VL9YYRA7KV59yf8H6GL8Ug/viewform?usp=sf_link">
-          <input id="bugReport" type="submit" value="Report Bugs/Make Suggestions/Questions/Comments">
-          </form>
-          <form method="GET" action="https://www.reddit.com/r/Jujutsufolk/comments/1e17fxl/the_jujutsu_kaisen_stock_report_15/">
-            <input id="stockReport" type="submit" value="OFFICIAL STOCK REPORT">
-            </form>
+        <label id="sidePanelSellButtonLabel" class="sidePanelButtonLabel" for="sidePanelSellButtons">Currently selling stocks 1 at a time</label>
+        <div id="sidePanelSellButtons">
+          <button class="stockSidePanelButtonSell" onclick="changeSellNum(1)">1</button>
+          <button class="stockSidePanelButtonSell" onclick="changeSellNum(10)">10</button>
+          <button class="stockSidePanelButtonSell" onclick="changeSellNum(100)">100</button>
+          <button class="stockSidePanelButtonSell" onclick="changeSellNum(1000000000000000)">MAX</button>
+        </div>
       </div>
-  </div>
+      <form method="GET" action="https://discord.gg/FxNTXtN8qP">
+        <input id="bugReport" type="submit" value="Report Bugs/Make Suggestions/Questions/Comments">
+      </form>
+      <form method="GET" action="https://discord.gg/FxNTXtN8qP">
+        <input id="stockReport" type="submit" value="OFFICIAL STOCK REPORT">
+      </form>
+      <!-- Dark Mode Toggle -->
+    </div>
     <div id="parent">
       <div id="left" style="width: 30px; height: 150px"></div>
       <div class="stockPanel" id="stockPanel" style="width: 1270px"></div>
+    </div>
+    <script>
+      const toggleButton = document.getElementById('toggle-mode');
+      const body = document.body;
+
+      toggleButton.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+        if (body.classList.contains('dark-mode')) {
+          toggleButton.textContent = 'Switch to Light Mode';
+        } else {
+          toggleButton.textContent = 'Switch to Dark Mode';
+        }
+      });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/buySellToggle.js"></script>
+    <script src="js/index.js"></script>
   </body>
-  <script src="js/index.js"></script>
 </html>
