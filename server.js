@@ -362,7 +362,7 @@ app.post("/buy-stock",authenticateToken, (req, res) => {
     "touka",
     "abo",
     "kazuya",
-    "hanako",
+    "hanako"
   )
     .from("stockvalues")
     .where("id", maxID)
@@ -451,7 +451,7 @@ app.post("/sell-stock",authenticateToken, (req, res) => {
     "touka",
     "abo",
     "kazuya",
-    "hanako",
+    "hanako"
   )
     .from("stockvalues")
     .where("id", maxID)
