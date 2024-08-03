@@ -48,9 +48,9 @@ let stockValues = [
     0,
   ],
   [
-    [20,32],
+    [20,24],
     true,
-    "ryuuichi",
+    "tadashi",
     0,
   ],
   [
@@ -309,7 +309,7 @@ async function getStockData(callback) {
         item[0] = values.map((obj) => Number(obj[item[2].toLowerCase()]));
         item[0] = item[0].reverse();
       }
-      lastChapter = Number(values[0].lastchapter) - 9;
+      lastChapter = Number(values[0].lastchapter) ;
     });
   callback();
 }
