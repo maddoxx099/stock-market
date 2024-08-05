@@ -91,7 +91,8 @@ CREATE TABLE public.stockvalues (
     hanako numeric(5,2) DEFAULT 0,
     lastchapter integer DEFAULT 0,
     higeki numeric(5,2) DEFAULT 0,
-    isamu numeric(5,2) DEFAULT 0
+    isamu numeric(5,2) DEFAULT 0,
+    enki numeric(5,2) DEFAULT 0
 );
 
 
@@ -155,7 +156,8 @@ CREATE TABLE public.users (
     kazuya integer DEFAULT 0,
     hanako integer DEFAULT 0,
     higeki numeric(5,2) DEFAULT 0,
-    isamu numeric(5,2) DEFAULT 0
+    isamu numeric(5,2) DEFAULT 0,
+    enki integer DEFAULT 0
 );
 
 
@@ -270,9 +272,9 @@ COPY pgagent.pga_jobsteplog (jslid, jsljlgid, jsljstid, jslstatus, jslresult, js
 -- Data for Name: stockvalues; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.stockvalues (id, ashaf, jukusuke, ryuuichi, asuka, noroi, kenji, asura, tashiro, tadashi, seina, kaze, ishika, akane, sado, alaric, gorou, kaiaku, arata, chiyomi, kuba, touka, abo, kazuya, hanako, lastchapter, higeki, isamu) FROM stdin;
-36	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	0	20.00	20.00
-37	42.00	41.00	32.00	32.00	31.00	30.00	25.00	25.00	24.00	24.00	23.00	23.00	23.00	21.00	19.00	18.00	17.00	15.00	14.00	20.00	20.00	20.00	20.00	21.00	1	20.00	20.00
+COPY public.stockvalues (id, ashaf, jukusuke, ryuuichi, asuka, noroi, kenji, asura, tashiro, tadashi, seina, kaze, ishika, akane, sado, alaric, gorou, kaiaku, arata, chiyomi, kuba, touka, abo, kazuya, hanako, lastchapter, higeki, isamu, enki) FROM stdin;
+36	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	0	20.00	20.00	20.00
+37	42.00	41.00	32.00	32.00	31.00	30.00	25.00	25.00	24.00	24.00	23.00	23.00	23.00	21.00	19.00	18.00	17.00	15.00	14.00	20.00	20.00	20.00	20.00	21.00	1	20.00	20.00	20.00
 \.
 
 
@@ -280,7 +282,8 @@ COPY public.stockvalues (id, ashaf, jukusuke, ryuuichi, asuka, noroi, kenji, asu
 -- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.users (id, username, password, money, totalstockvalue, profit, ashaf, jukusuke, ryuuichi, asuka, noroi, kenji, asura, tashiro, tadashi, seina, kaze, ishika, akane, sado, alaric, gorou, kaiaku, arata, chiyomi, kuba, touka, abo, kazuya, hanako, higeki, isamu) FROM stdin;
+COPY public.users (id, username, password, money, totalstockvalue, profit, ashaf, jukusuke, ryuuichi, asuka, noroi, kenji, asura, tashiro, tadashi, seina, kaze, ishika, akane, sado, alaric, gorou, kaiaku, arata, chiyomi, kuba, touka, abo, kazuya, hanako, higeki, isamu, enki) FROM stdin;
+14407	maddoxx	jujutsu1234	2.00	1000.00	0.00	23	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.00	0.00	0
 \.
 
 
