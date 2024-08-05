@@ -283,7 +283,6 @@ COPY public.stockvalues (id, ashaf, jukusuke, ryuuichi, asuka, noroi, kenji, asu
 --
 
 COPY public.users (id, username, password, money, totalstockvalue, profit, ashaf, jukusuke, ryuuichi, asuka, noroi, kenji, asura, tashiro, tadashi, seina, kaze, ishika, akane, sado, alaric, gorou, kaiaku, arata, chiyomi, kuba, touka, abo, kazuya, hanako, higeki, isamu, enki) FROM stdin;
-14407	maddoxx	jujutsu1234	2.00	1000.00	0.00	23	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.00	0.00	0
 \.
 
 
