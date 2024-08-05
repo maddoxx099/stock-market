@@ -86,6 +86,8 @@ const validateData = (data)=>{
         sessionStorage.abo = data.abo;
         sessionStorage.kazuya = data.kazuya;
         sessionStorage.hanako = data.hanako;
+        sessionStorage.higeki = data.higeki;
+        sessionStorage.isamu = data.isamu;
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }
