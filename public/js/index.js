@@ -327,7 +327,7 @@ async function getStockData(callback) {
         item[0] = values.map((obj) => Number(obj[item[2].toLowerCase()]));
         item[0] = item[0].reverse();
       }
-      lastChapter = Number(values[0].lastchapter) ;
+      lastChapter = Number(values[0].lastchapter) -1;
     });
   callback();
 }
