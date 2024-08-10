@@ -199,8 +199,8 @@ app.get("/stock-values", (req, res) => {
       "kazuya",
       "hanako",
       "higeki",
+      "isamu",
       "enki",
-    "isamu",
     "lastchapter")
     .orderBy("id","desc")
     .limit(10)
