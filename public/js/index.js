@@ -161,6 +161,30 @@ let stockValues = [
     "enki",
     0,
   ],
+  [
+    [20,20],
+    true,
+    "yuu",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "ue",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "shiro",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "shukei",
+    0,
+  ],
 ];
 //possibly add checkboxes for fraud and goat mode
 /*let fraudNames = {"Gojo":"Go/Jo","Kashimo":"The Waffled One","Sukuna":"Fraudkuna","Yuta":"The Sneakiest","Maki":"Fem Toji","Yuji":"Punch and Kick Merchant","Higuruma":"Fodder 1","Kenjaku":"King of Recieving Backshots","Hakari":"Fodder 2","Nobara":"Haruta Victim","Megumi":"Potential Man","Uraume":"Glorified Freezer","Todo":"Useless CT Now"}
@@ -717,4 +741,8 @@ const validateData = (data) => {
   sessionStorage.higeki = data.higeki;
   sessionStorage.isamu = data.isamu;
   sessionStorage.enki = data.enki;
+  sessionStorage.yuu = data.yuu;
+  sessionStorage.ue = data.ue;
+  sessionStorage.shiro = data.shiro;
+  sessionStorage.shukei = data.shukei;
 };

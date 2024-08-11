@@ -88,7 +88,12 @@ const validateData = (data)=>{
         sessionStorage.hanako = data.hanako;
         sessionStorage.higeki = data.higeki;
         sessionStorage.isamu = data.isamu;
-        sessionStorage.enki = data.enki;
+        sessionStorage.enki = data.enki;  
+        sessionStorage.yuu = data.yuu;
+        sessionStorage.ue = data.ue;
+        sessionStorage.shiro = data.shiro;
+        sessionStorage.shukei = data.shukei;
+
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }
