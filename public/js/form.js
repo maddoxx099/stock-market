@@ -93,7 +93,7 @@ const validateData = (data)=>{
         sessionStorage.ue = data.ue;
         sessionStorage.shiro = data.shiro;
         sessionStorage.shukei = data.shukei;
-
+        sessionStorage.hokama = data.hokama;
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }
