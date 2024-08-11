@@ -331,7 +331,7 @@ app.post("/login-user", (req, res) => {
       if (data.length) {
         //res.json(data[0]);
         const user = {username:username}
-        const accessToken = jwt.sign(user,process.env.ACCESS_TOKEN_SECRET,{expiresIn:"2h"})
+        const accessToken = jwt.sign(user,process.env.ACCESS_TOKEN_SECRET,{expiresIn:"15d"})
         res.json([data[0],{accessToken:accessToken}]);
       } else {
         res.json("username or password is incorrect");
