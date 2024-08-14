@@ -206,6 +206,7 @@ app.get("/stock-values", (req, res) => {
       "shiro",
       "shukei",
       "hokama",
+      "wei",
     "lastchapter")
     .orderBy("id","desc")
     .limit(10)
@@ -275,6 +276,7 @@ app.get("/get-user-data", authenticateToken,(req, res) => {
     "shiro",
     "shukei",
     "hokama",
+    "wei",
     "profit" /* "achievements", */
   )
     .from("users")
@@ -323,6 +325,7 @@ app.post("/login-user", (req, res) => {
     "shiro",
     "shukei",
     "hokama",
+    "wei",
     "profit"  
   )
     .from("users")
@@ -394,7 +397,8 @@ app.post("/buy-stock",authenticateToken, (req, res) => {
     "ue",
     "shiro",
     "shukei",
-    "hokama"
+    "hokama",
+    "wei"
   )
     .from("stockvalues")
     .where("id", maxID)
@@ -491,7 +495,8 @@ app.post("/sell-stock",authenticateToken, (req, res) => {
     "ue",
     "shiro",
     "shukei",
-    "hokama"
+    "hokama",
+    "wei"
   )
     .from("stockvalues")
     .where("id", maxID)

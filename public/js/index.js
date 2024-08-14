@@ -190,6 +190,12 @@ let stockValues = [
     true,
     "hokama",
     0,
+  ],
+  [
+    [20,20],
+    true,
+    "wei",
+    0,
   ]
 ];
 //possibly add checkboxes for fraud and goat mode
@@ -752,4 +758,5 @@ const validateData = (data) => {
   sessionStorage.shiro = data.shiro;
   sessionStorage.shukei = data.shukei;
   sessionStorage.hokama = data.hokama;
+  sessionStorage.wei = data.wei;
 };

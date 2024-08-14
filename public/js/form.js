@@ -94,6 +94,7 @@ const validateData = (data)=>{
         sessionStorage.shiro = data.shiro;
         sessionStorage.shukei = data.shukei;
         sessionStorage.hokama = data.hokama;
+        sessionStorage.wei = data.wei;
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }
