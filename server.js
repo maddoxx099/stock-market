@@ -74,7 +74,7 @@ app.post("/leaderboard-money", (req, res) => {
     .returning(["scores"]))
     .select('*')
     .from('stuff')
-    .where('position','<',16)
+    .where('position','<',30)
     .orWhere({
       username: username,
     })
@@ -110,7 +110,7 @@ app.post("/leaderboard-totalstockvalue", (req, res) => {
     .returning(["scores"]))
     .select('*')
     .from('stuff')
-    .where('position','<',16)
+    .where('position','<',30)
     .orWhere({
       username: username,
     })
@@ -146,7 +146,7 @@ app.post("/leaderboard-profit", (req, res) => {
     .returning(["scores"]))
     .select('*')
     .from('stuff')
-    .where('position','<',16)
+    .where('position','<',30)
     .orWhere({
       username: username,
     })
