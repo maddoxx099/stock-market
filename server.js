@@ -89,7 +89,7 @@ app.post("/leaderboard-money", (req, res) => {
     return db("users")
     .select(["money","profit","totalstockvalue", "username"])
     .orderBy("money", "desc")
-    .limit(15)
+    .limit(30)
     .returning(["scores"])
     .then((data) => {
       res.json(data);
@@ -125,7 +125,7 @@ app.post("/leaderboard-totalstockvalue", (req, res) => {
     return db("users")
     .select(["totalstockvalue","profit","money", "username"])
     .orderBy("totalstockvalue", "desc")
-    .limit(15)
+    .limit(30)
     .returning(["scores"])
     .then((data) => {
       res.json(data);
@@ -161,7 +161,7 @@ app.post("/leaderboard-profit", (req, res) => {
     return db("users")
     .select(["money","profit","totalstockvalue", "username"])
     .orderBy("profit", "desc")
-    .limit(15)
+    .limit(30)
     .returning(["scores"])
     .then((data) => {
       res.json(data);
