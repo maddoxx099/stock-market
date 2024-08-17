@@ -766,4 +766,5 @@ const validateData = (data) => {
   sessionStorage.hokama = data.hokama;
   sessionStorage.wei = data.wei;
   sessionStorage.sanagi = data.sanagi;
+  sessionStorage.meatloaf = data.meatloaf;
 };
