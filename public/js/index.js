@@ -202,6 +202,12 @@ let stockValues = [
     true,
     "sanagi",
     0,
+  ],
+  [
+    [20,20],
+    true,
+    "meatloaf",
+    0,
   ]
 ];
 //possibly add checkboxes for fraud and goat mode
