@@ -208,6 +208,12 @@ let stockValues = [
     true,
     "meatloaf",
     0,
+  ],
+  [
+    [20,20],
+    true,
+    "amelie",
+    0,
   ]
 ];
 //possibly add checkboxes for fraud and goat mode
@@ -773,4 +779,5 @@ const validateData = (data) => {
   sessionStorage.wei = data.wei;
   sessionStorage.sanagi = data.sanagi;
   sessionStorage.meatloaf = data.meatloaf;
+  sessionStorage.amelie = data.amelie;
 };

@@ -97,6 +97,7 @@ const validateData = (data)=>{
         sessionStorage.wei = data.wei;
         sessionStorage.sanagi = data.sanagi;
         sessionStorage.meatloaf = data.meatloaf;
+        sessionStorage.amelie = data.amelie;
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }
