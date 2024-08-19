@@ -1,7 +1,7 @@
 BEGIN;
 
 UPDATE users set tempProfit=totalstockvalue;
-UPDATE users set totalstockvalue=ashaf*39+jukusuke*44.69+ryuuichi*35.84+asuka*33.28+noroi*31+kenji*62+asura*32.1+tashiro*27.25+tadashi*25.5+seina*24+kaze*24+ishika*23+akane*23.46+sado*23+alaric*25.4+gorou*19+kaiaku*18.54+arata*20.75+chiyomi*15.15+kuba*14.7+touka*21.6+abo*23.81+kazuya*20+hanako*24.2+higeki*21+isamu*20+enki*20+yuu*17.64+ue*20.2+shiro*20+shukei*20+hokama*20+wei*22.2+sanagi*20+meatloaf*20+amelie*1.6+money;
+UPDATE users set totalstockvalue=ashaf*39+jukusuke*44.69+ryuuichi*35.84+asuka*33.28+noroi*31.62+kenji*32.1+asura*27.25+tashiro*25.5+tadashi*24+seina*24+kaze*23+ishika*23.46+akane*23+sado*25.4+alaric*19+gorou*18.54+kaiaku*20.75+arata*15.15+chiyomi*14.7+kuba*21.6+touka*23.81+abo*20+kazuya*24.2+hanako*21+higeki*20+isamu*20+enki*17.64+yuu*20.2+ue*20+shiro*20+shukei*20+hokama*22.2+wei*20+sanagi*20+meatloaf*1.6+amelie*20+money;
 UPDATE users set tempProfit=totalstockvalue-tempProfit;
 UPDATE users set profit=profit+tempProfit;
 
