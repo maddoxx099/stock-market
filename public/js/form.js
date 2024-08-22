@@ -98,6 +98,8 @@ const validateData = (data)=>{
         sessionStorage.sanagi = data.sanagi;
         sessionStorage.meatloaf = data.meatloaf;
         sessionStorage.amelie = data.amelie;
+        sessionStorage.shihai = data.shihai;
+        sessionStorage.yasu = data.yasu;
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }

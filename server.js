@@ -210,6 +210,8 @@ app.get("/stock-values", (req, res) => {
       "sanagi",
       "meatloaf",
       "amelie",
+      "shihai",
+      "yasu",
     "lastchapter")
     .orderBy("id","desc")
     .limit(10)
@@ -283,6 +285,8 @@ app.get("/get-user-data", authenticateToken,(req, res) => {
     "sanagi",
     "meatloaf",
     "amelie",
+    "shihai",
+    "yasu",
     "profit" /* "achievements", */
   )
     .from("users")
@@ -335,6 +339,8 @@ app.post("/login-user", (req, res) => {
     "sanagi",
     "meatloaf",
     "amelie",
+    "shihai",
+    "yasu",
     "profit"  
   )
     .from("users")
@@ -410,7 +416,9 @@ app.post("/buy-stock",authenticateToken, (req, res) => {
     "wei",
     "sanagi",
     "meatloaf",
-    "amelie"
+    "amelie",
+    "shihai",
+    "yasu"
   )
     .from("stockvalues")
     .where("id", maxID)
@@ -511,7 +519,9 @@ app.post("/sell-stock",authenticateToken, (req, res) => {
     "wei",
     "sanagi",
     "meatloaf",
-    "amelie"
+    "amelie",
+    "shihai",
+    "yasu"
   )
     .from("stockvalues")
     .where("id", maxID)
