@@ -100,6 +100,7 @@ const validateData = (data)=>{
         sessionStorage.amelie = data.amelie;
         sessionStorage.shihai = data.shihai;
         sessionStorage.yasu = data.yasu;
+        sessionStorage.hirioki = data.hirioki;
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }

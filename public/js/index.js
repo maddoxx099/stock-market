@@ -226,6 +226,12 @@ let stockValues = [
     true,
     "yasu",
     0,
+  ],
+  [
+    [20,20],
+    true,
+    "hirioki",
+    0,
   ]
 ];
 //possibly add checkboxes for fraud and goat mode
@@ -794,4 +800,5 @@ const validateData = (data) => {
   sessionStorage.amelie = data.amelie;
   sessionStorage.shihai = data.shihai;
   sessionStorage.yasu = data.yasu;
+  sessionStorage.hirioki = data.hirioki;
 };
