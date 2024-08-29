@@ -101,6 +101,9 @@ const validateData = (data)=>{
         sessionStorage.shihai = data.shihai;
         sessionStorage.yasu = data.yasu;
         sessionStorage.hirioki = data.hirioki;
+        sessionStorage.renzo = data.renzo;
+        sessionStorage.kota = data.kota;
+        sessionStorage.itachi = data.itachi;
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }

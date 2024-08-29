@@ -232,6 +232,24 @@ let stockValues = [
     true,
     "hirioki",
     0,
+  ],
+  [
+    [20,20],
+    true,
+    "renzo",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "kota",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "itachi",
+    0,
   ]
 ];
 //possibly add checkboxes for fraud and goat mode
@@ -801,4 +819,7 @@ const validateData = (data) => {
   sessionStorage.shihai = data.shihai;
   sessionStorage.yasu = data.yasu;
   sessionStorage.hirioki = data.hirioki;
+  sessionStorage.renzo = data.renzo;
+  sessionStorage.kota = data.kota;
+  sessionStorage.itachi = data.itachi;
 };
