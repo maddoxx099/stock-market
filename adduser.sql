@@ -1,5 +1,4 @@
 alter table users
-ADD COLUMN renzo integer DEFAULT 0,
-ADD COLUMN kota integer DEFAULT 0,
-ADD COLUMN itachi integer DEFAULT 0;
+ADD COLUMN hikari integer DEFAULT 0,
+ADD COLUMN sora integer DEFAULT 0;
 
