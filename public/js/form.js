@@ -106,6 +106,11 @@ const validateData = (data)=>{
         sessionStorage.itachi = data.itachi;
         sessionStorage.hikari = data.hikari;
         sessionStorage.sora = data.sora;
+        sessionStorage.kairijo = data.kairijo;
+        sessionStorage.aki = data.aki;
+        sessionStorage.toru = data.toru;
+        sessionStorage.aoyama = data.aoyama;
+        sessionStorage.dai = data.dai;
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }
