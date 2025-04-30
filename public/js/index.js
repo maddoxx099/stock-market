@@ -455,6 +455,7 @@ async function getStockData(callback) {
   await fetch("/stock-values")
     .then((res) => res.json())
     .then((values) => {
+      console.log(values);
       for (let item of stockValues) {
         item[0] = values.map((obj) => Number(obj[item[2].toLowerCase()]));
         item[0] = item[0].reverse();

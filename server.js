@@ -11,9 +11,12 @@ const db = knex({
   connection: {
     host: "127.0.0.1",
     user: "postgres",
+    password: process.env.dbpassword,
     database: "investors",
   },
+  debug:true,
 });
+
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
