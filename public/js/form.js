@@ -111,6 +111,22 @@ const validateData = (data)=>{
         sessionStorage.toru = data.toru;
         sessionStorage.aoyama = data.aoyama;
         sessionStorage.dai = data.dai;
+
+        // sessionStorage.ikiryo = data.dai;
+        // sessionStorage.dai = data.dai;
+        // sessionStorage.dai = data.dai;
+        // sessionStorage.dai = data.dai;
+        // sessionStorage.dai = data.dai;
+        // sessionStorage.dai = data.dai;
+        // sessionStorage.dai = data.dai;
+        // sessionStorage.dai = data.dai;
+        // sessionStorage.dai = data.dai;
+        // sessionStorage.dai = data.dai;
+        // sessionStorage.dai = data.dai;
+        // sessionStorage.dai = data.dai;
+        // sessionStorage.dai = data.dai;
+        // sessionStorage.dai = data.dai;
+        // sessionStorage.dai = data.dai;
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }
