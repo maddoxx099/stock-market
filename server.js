@@ -221,6 +221,8 @@ app.get("/stock-values", (req, res) => {
       "hikari",
       "sora",
       "kairijo","aki","toru","aoyama","dai",
+      "ikiryo","shyythiel","ain","doctor","torako","eiko","hokori_gojo","shion",
+      "kizu","darius","yoshinori","ghose","kaien","suzuki",
     "lastchapter")
     .orderBy("id","desc")
     .limit(10)
@@ -303,6 +305,8 @@ app.get("/get-user-data", authenticateToken,(req, res) => {
     "hikari",
     "sora",
     "kairijo","aki","toru","aoyama","dai",
+    "ikiryo","shyythiel","ain","doctor","torako","eiko","hokori_gojo","shion",
+    "kizu","darius","yoshinori","ghose","kaien","suzuki",
     "profit" /* "achievements", */
   )
     .from("users")
@@ -364,6 +368,8 @@ app.post("/login-user", (req, res) => {
     "hikari",
     "sora",
     "kairijo","aki","toru","aoyama","dai",
+    "ikiryo","shyythiel","ain","doctor","torako","eiko","hokori_gojo","shion",
+    "kizu","darius","yoshinori","ghose","kaien","suzuki",
     "profit"  
   )
     .from("users")
@@ -447,7 +453,9 @@ app.post("/buy-stock",authenticateToken, (req, res) => {
     "kota",
     "itachi",
     "hikari",
-    "sora","kairijo","aki","toru","aoyama","dai"
+    "sora","kairijo","aki","toru","aoyama","dai",
+    "ikiryo","shyythiel","ain","doctor","torako","eiko","hokori_gojo","shion",
+    "kizu","darius","yoshinori","ghose","kaien","suzuki"
   )
     .from("stockvalues")
     .where("id", maxID)
@@ -556,7 +564,9 @@ app.post("/sell-stock",authenticateToken, (req, res) => {
     "kota",
     "itachi",
     "hikari",
-    "sora","kairijo","aki","toru","aoyama","dai"
+    "sora","kairijo","aki","toru","aoyama","dai",
+    "ikiryo","shyythiel","ain","doctor","torako","eiko","hokori_gojo","shion",
+    "kizu","darius","yoshinori","ghose","kaien","suzuki"
   )
     .from("stockvalues")
     .where("id", maxID)

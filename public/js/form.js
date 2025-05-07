@@ -112,21 +112,20 @@ const validateData = (data)=>{
         sessionStorage.aoyama = data.aoyama;
         sessionStorage.dai = data.dai;
 
-        // sessionStorage.ikiryo = data.dai;
-        // sessionStorage.dai = data.dai;
-        // sessionStorage.dai = data.dai;
-        // sessionStorage.dai = data.dai;
-        // sessionStorage.dai = data.dai;
-        // sessionStorage.dai = data.dai;
-        // sessionStorage.dai = data.dai;
-        // sessionStorage.dai = data.dai;
-        // sessionStorage.dai = data.dai;
-        // sessionStorage.dai = data.dai;
-        // sessionStorage.dai = data.dai;
-        // sessionStorage.dai = data.dai;
-        // sessionStorage.dai = data.dai;
-        // sessionStorage.dai = data.dai;
-        // sessionStorage.dai = data.dai;
+        sessionStorage.ikiryo = data.ikiryo;
+        sessionStorage.shyythiel = data.shyythiel;
+        sessionStorage.ain = data.ain;
+        sessionStorage.doctor = data.doctor;
+        sessionStorage.torako = data.torako;
+        sessionStorage.eiko = data.eiko;
+        sessionStorage.hokori_gojo = data.hokori_gojo;
+        sessionStorage.shion = data.shion;
+        sessionStorage.kizu = data.kizu;
+        sessionStorage.darius = data.darius;
+        sessionStorage.yoshinori = data.yoshinori;
+        sessionStorage.ghose = data.ghose;
+        sessionStorage.kaien = data.kaien;
+        sessionStorage.suzuki = data.suzuki;
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }

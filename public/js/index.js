@@ -292,7 +292,92 @@ let stockValues = [
     true,
     "dai",
     0,
-  ]
+  ],
+  [
+    [20,20],
+    true,
+    "ikiryo",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "shyythiel",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "ain",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "doctor",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "torako",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "eiko",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "hokori_gojo",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "shion",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "kizu",
+    0,
+  ],
+
+  [
+    [20,20],
+    true,
+    "darius",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "yoshinori",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "ghose",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "kaien",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "suzuki",
+    0,
+  ],
 ];
 //possibly add checkboxes for fraud and goat mode
 /*let fraudNames = {"Gojo":"Go/Jo","Kashimo":"The Waffled One","Sukuna":"Fraudkuna","Yuta":"The Sneakiest","Maki":"Fem Toji","Yuji":"Punch and Kick Merchant","Higuruma":"Fodder 1","Kenjaku":"King of Recieving Backshots","Hakari":"Fodder 2","Nobara":"Haruta Victim","Megumi":"Potential Man","Uraume":"Glorified Freezer","Todo":"Useless CT Now"}
@@ -872,4 +957,19 @@ const validateData = (data) => {
   sessionStorage.toru = data.toru;
   sessionStorage.aoyama = data.aoyama;
   sessionStorage.dai = data.dai;
+
+  sessionStorage.ikiryo = data.ikiryo;
+  sessionStorage.shyythiel = data.shyythiel;
+  sessionStorage.ain = data.ain;
+  sessionStorage.doctor = data.doctor;
+  sessionStorage.torako = data.torako;
+  sessionStorage.eiko = data.eiko;
+  sessionStorage.hokori_gojo = data.hokori_gojo;
+  sessionStorage.shion = data.shion;
+  sessionStorage.kizu = data.kizu;
+  sessionStorage.darius = data.darius;
+  sessionStorage.yoshinori = data.yoshinori;
+  sessionStorage.ghose = data.ghose;
+  sessionStorage.kaien = data.kaien;
+  sessionStorage.suzuki = data.suzuki;
 };
