@@ -357,23 +357,6 @@ COPY public.stockvalues (id, ashaf, jukusuke, ryuuichi, asuka, noroi, kenji, asu
 --
 
 COPY public.users (id, username, password, money, totalstockvalue, profit, ashaf, jukusuke, ryuuichi, asuka, noroi, kenji, asura, tashiro, tadashi, seina, kaze, ishika, akane, sado, alaric, gorou, kaiaku, arata, chiyomi, kuba, touka, abo, kazuya, hanako, higeki, isamu, enki, tempprofit, yuu, ue, shiro, shukei, hokama, wei, sanagi, meatloaf, amelie, shihai, yasu, hirioki, renzo, kota, itachi, hikari, sora, kairijo, aki, toru, aoyama, dai) FROM stdin;
-14408	maddoxx	jujutsu123	2040.85	5847.81	287.81	0	0	1	0	5	4	0	9	10	2	0	0	10	5	15	0	15	0	20	10	10	0	0	0	0	10	15	73.66	0	0	0	0	5	0	7	160	0	16	0	0	0	0	0	0	0	0	0	0	0	0
-14421	theyuster	stonksgodown	5256.00	5457.28	17.28	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0.00	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-14416	wompwomp	jubvun-qymwyj-qIwgy8	3240.60	5771.20	211.20	0	0	5	5	0	62	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	17.40	0	0	0	0	0	0	0	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-14409	Knee Deep In Doot	lucas2005	608.06	5815.41	255.41	0	15	0	15	0	0	0	0	0	10	10	0	0	10	10	0	15	20	28	0	0	0	10	0	0	10	10	62.64	0	0	0	0	0	10	5	120	0	0	0	0	0	20	10	10	0	0	0	0	0	0
-14414	Shatter	theJOKER05	2712.01	5745.98	185.98	0	5	0	0	0	0	0	0	0	0	20	10	0	0	0	0	31	0	0	0	15	2	0	2	11	5	0	0.00	0	0	0	0	0	20	0	0	3	0	0	0	0	0	0	10	0	0	0	0	0	0
-14417	armada	password	6980.35	6980.35	1420.35	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	133.20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-14411	TheIronLegion	DMasterRevan.7929	3960.56	5702.45	142.45	0	0	0	0	0	0	0	0	1	0	3	4	0	0	5	9	1	10	18	0	6	0	0	1	0	4	0	138.04	0	0	0	0	0	6	0	238	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-14419	test	jujutsu12	2100.01	4900.01	-659.99	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	638.00	0	0	0	0	0	0	0	1400	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-14412	sixes3232	sixes666	3664.38	5788.42	228.42	0	0	0	0	0	0	13	0	0	0	1	0	0	1	0	0	0	0	74	10	5	0	0	0	9	0	0	0.00	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-14424	CraigM370	Malleron32	4840.00	4840.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-14423	Chad Thundersweep	11162316	6812.51	6812.51	1552.51	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-14415	ytho	Microwave08	2341.66	5774.17	214.17	3	6	5	5	5	5	3	3	2	1	0	1	1	4	1	1	3	0	0	6	5	0	1	1	1	1	0	160.66	0	0	7	1	2	0	0	644	0	0	0	0	0	0	0	0	1	0	0	0	0	0
-14420	mazinator	mazination	2469.28	5637.22	137.22	0	0	9	15	0	15	0	0	0	0	0	1	0	12	0	0	0	0	78	0	0	0	0	0	0	0	0	81.20	0	0	0	0	0	0	0	140	0	5	0	0	0	0	0	0	0	0	0	0	0	0
-14410	Torrential_Downpour	samuelthesuperb#swag	2700.16	6837.27	1277.27	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	50	0	11	0	0	12	6	6	0	745.30	0	0	0	0	0	0	0	1285	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-14418	justcallmeclu	Zigzager	3961.20	5629.23	97.53	3	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	10	20	0	0	0	0	0	0	3	26	0	69.60	0	0	0	0	0	0	0	120	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-14422	GOoober	@WSMS@UC3	4335.10	5342.22	22.22	0	0	0	0	0	9	0	0	11	0	5	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0.00	0	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-14413	Flauros	AsukaKamo27	3965.51	5724.10	164.10	0	3	10	0	5	10	0	0	1	0	0	0	0	0	0	0	0	1	10	5	0	0	0	0	0	5	0	58.00	0	0	0	0	5	0	0	100	2	0	0	0	0	0	0	0	0	0	0	0	0	0
 \.
 
 
