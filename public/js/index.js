@@ -393,7 +393,7 @@ let lastChapter;
 let sellNum = 1;
 let buyNum = 1;
 canvas.id = "stockGraph";
-const stockMax = 100;
+const stockMax = 50;
 let money = 1000;
 let profit=0;
 let totalstockvalue=1000;
