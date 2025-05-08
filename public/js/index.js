@@ -387,13 +387,13 @@ function enableFraud(){
 }*/
 let canvas = document.createElement("canvas");
 canvas.width = 800;
-const oneTick = canvas.width / 10;
+const oneTick = canvas.width / 8;
 canvas.height = 650;
 let lastChapter;
 let sellNum = 1;
 let buyNum = 1;
 canvas.id = "stockGraph";
-const stockMax = 50;
+const stockMax = 80;
 let money = 1000;
 let profit=0;
 let totalstockvalue=1000;
