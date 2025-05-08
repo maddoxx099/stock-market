@@ -387,7 +387,7 @@ function enableFraud(){
 }*/
 let canvas = document.createElement("canvas");
 canvas.width = 800;
-const oneTick = canvas.width / 12;
+const oneTick = canvas.width / 10;
 canvas.height = 650;
 let lastChapter;
 let sellNum = 1;
