@@ -11,12 +11,12 @@ let stockValues = [
     "jukusuke",
     0,
   ],
-  [
-    [20,32],
-    true,
-    "ryuuichi",
-    0,
-  ],
+  // [
+  //   [20,32],
+  //   true,
+  //   "ryuuichi",
+  //   0,
+  // ],
   [
     [20,32],
     true,
