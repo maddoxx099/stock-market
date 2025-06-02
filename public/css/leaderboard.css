@@ -1,4 +1,4 @@
-body{
+/* body{
   background-color: wheat;
 }
 @media screen and (max-width: 1000px){ html,body {min-width:1000px} }
@@ -77,4 +77,131 @@ body{
 }
 .Homepage:active{
   background-color: rgb(20, 10, 95);
+} */
+ @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body {
+  background: radial-gradient(ellipse at top, #0a0a0f, #000000);
+  color: #e0e0e0;
+  font-family: 'Share Tech Mono', monospace;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1000px) {
+  html, body { min-width: 1000px; }
+}
+
+.description-title {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 1%;
+  color: #00f0ff;
+  text-shadow: 0 0 4px #00f0ff, 0 0 10px #00f0ff;
+}
+
+#leaderboard {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 1%;
+}
+
+#stockSort {
+  font-size: 17px;
+  padding: 7px 20px;
+  display: block;
+  margin: auto;
+  margin-top: 0.5%;
+  background-color: #141421;
+  color: #ff00a8;
+  border: 1px solid #ff00a8;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 0 8px #ff00a8;
+  transition: all 0.2s ease-in-out;
+}
+
+#stockSort:hover {
+  background-color: #1d1d2e;
+  box-shadow: 0 0 12px #ff00a8;
+}
+
+.description {
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: #b8b8b8;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.scoreboardTable {
+  padding: 0;
+  margin: auto;
+  border-collapse: collapse;
+  width: 80%;
+  text-align: center;
+  background-color: rgba(20, 20, 30, 0.9);
+  color: #e6e6e6;
+  border: 1px solid #222;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
+}
+
+.scoreboardTableHeaderRow {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #00eaff;
+  font-weight: bold;
+  font-size: larger;
+  height: 40px;
+  border-bottom: 2px solid #00eaff;
+  text-shadow: 0 0 6px #00eaff;
+}
+
+.scoreboardTableBodyRow:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+.scoreboardTableBodyRow:hover {
+  background-color: rgba(255, 0, 180, 0.08);
+  box-shadow: inset 0 0 10px #ff00a8;
+}
+
+#latestUserScore {
+  background-color: #6c0c6b;
+  color: white;
+  font-weight: bold;
+}
+
+.scoreboardTable tr td {
+  height: 50px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.Homepage {
+  display: block;
+  margin: auto;
+  margin-top: 2%;
+  width: 48%;
+  height: 46px;
+  font-size: larger;
+  background-color: #141421;
+  color: #00ffe7;
+  border: 1px solid #00ffe7;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 0 10px #00ffe7;
+  transition: all 0.3s ease;
+}
+
+.Homepage:hover {
+  background-color: #1f1f33;
+  box-shadow: 0 0 15px #00ffe7;
+}
+
+.Homepage:active {
+  background-color: #0a0a15;
 }
