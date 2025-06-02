@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -116,4 +116,135 @@ input:focus::placeholder{
     font-family: 'roboto', sans-serif;
     text-align: center;
     transition: 1s;
+} */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus{
+    outline: none;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/stocks.png');
+    background-size: cover;
+    background-position: center;
+    font-family: 'roboto', sans-serif;
+    background-color: #1a0c00;
+}
+
+.form{
+    width: 400px;
+    height: auto;
+    color: #ffcc66;
+    background: linear-gradient(145deg, #330000, #1a0000);
+    border-radius: 15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ff4500;
+    font-family: 'roboto', sans-serif;
+    box-shadow: 0 0 20px rgba(255, 100, 0, 0.5);
+}
+
+.heading{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    color: #ffae00;
+    text-shadow: 0 0 8px #ff4500, 0 0 12px #ff3300;
+}
+
+input,
+.submit-btn{
+    width: 80%;
+    height: 35px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: rgba(255, 100, 0, 0.15);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ff6600;
+    color: #ffeac3;
+    padding: 15px;
+    transition: .5s;
+}
+
+input::placeholder{
+    color: #ffd9a0;
+}
+
+input:focus{
+    border-color: #ffae00;
+    border-width: 3px;
+    background-color: rgba(255, 100, 0, 0.25);
+}
+
+input:focus::placeholder{
+    color: #fff0cc;
+}
+
+.submit-btn{
+    width: auto;
+    padding: 0 20px;
+    cursor: pointer;
+    margin: 50px auto 0;
+    background: linear-gradient(to right, #ff3300, #ff6600, #ffaa00);
+    color: #1a0000;
+    border-color: #ff2200;
+    font-weight: bold;
+    text-transform: capitalize;
+    box-shadow: 0 0 10px #ff4500;
+}
+
+.submit-btn:hover{
+    background: #330000;
+    color: #ffcc66;
+    box-shadow: 0 0 20px #ff7700;
+}
+
+.link{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(255, 195, 115, 0.6);
+    display: block;
+    margin: 30px auto;
+}
+
+.link:hover{
+    color: #ffcc66;
+}
+
+.alert-box{
+    position: fixed;
+    top: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 150px;
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    text-transform: capitalize;
+    background: linear-gradient(to right, #ff2200, #cc0000);
+    border-left: 10px;
+    border-right: 10px;
+    border-radius: 15px;
+    color: #fff5e1;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    transition: 1s;
+    box-shadow: 0 0 20px #ff3300;
 }
