@@ -493,8 +493,14 @@ body.dark-mode #stockGraph{
 #toggle-mode:active {
   background-color: rgb(20, 10, 95);
 } */
+
+
+
  p {
   font-family: Arial;
+}
+body, button, input, textarea {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1 {
   line-height: 1em;
