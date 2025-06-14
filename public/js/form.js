@@ -126,6 +126,7 @@ const validateData = (data)=>{
         sessionStorage.ghose = data.ghose;
         sessionStorage.kaien = data.kaien;
         sessionStorage.suzuki = data.suzuki;
+        sessionStorage.daisuke = data.daisuke;
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }
