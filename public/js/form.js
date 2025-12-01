@@ -127,6 +127,9 @@ const validateData = (data)=>{
         sessionStorage.kaien = data.kaien;
         sessionStorage.suzuki = data.suzuki;
         sessionStorage.daisuke = data.daisuke;
+        sessionStorage.cordyscomycetes = data.cordyscomycetes;
+        sessionStorage.mayumi = data.mayumi;
+        sessionStorage.ashigin = data.ashigin;
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }

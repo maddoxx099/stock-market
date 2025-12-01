@@ -384,6 +384,24 @@ let stockValues = [
     "daisuke",
     0,
   ],
+  [
+    [20,20],
+    true,
+    "cordyscomycetes",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "mayumi",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "ashigin",
+    0,
+  ],
 ];
 //possibly add checkboxes for fraud and goat mode
 /*let fraudNames = {"Gojo":"Go/Jo","Kashimo":"The Waffled One","Sukuna":"Fraudkuna","Yuta":"The Sneakiest","Maki":"Fem Toji","Yuji":"Punch and Kick Merchant","Higuruma":"Fodder 1","Kenjaku":"King of Recieving Backshots","Hakari":"Fodder 2","Nobara":"Haruta Victim","Megumi":"Potential Man","Uraume":"Glorified Freezer","Todo":"Useless CT Now"}
@@ -979,4 +997,7 @@ const validateData = (data) => {
   sessionStorage.kaien = data.kaien;
   sessionStorage.suzuki = data.suzuki;
   sessionStorage.daisuke = data.daisuke;
+  sessionStorage.cordyscomycetes = data.cordyscomycetes;
+  sessionStorage.mayumi = data.mayumi;
+  sessionStorage.ashigin = data.ashigin;
 };

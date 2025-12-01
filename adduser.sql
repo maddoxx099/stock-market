@@ -1,2 +1,4 @@
 alter table users
-ADD COLUMN daisuke integer DEFAULT 0;
+ADD COLUMN cordyscomycetes integer DEFAULT 0,
+ADD COLUMN mayumi integer DEFAULT 0,
+ADD COLUMN ashigin integer DEFAULT 0;

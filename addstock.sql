@@ -1,2 +1,4 @@
 alter table stockvalues
-ADD COLUMN daisuke numeric(5, 2) DEFAULT 20;
+ADD COLUMN cordyscomycetes numeric(5, 2) DEFAULT 20,
+ADD COLUMN mayumi numeric(5, 2) DEFAULT 20,
+ADD COLUMN ashigin numeric(5, 2) DEFAULT 20;
