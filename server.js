@@ -223,7 +223,7 @@ app.get("/stock-values", (req, res) => {
       "kairijo","aki","toru","aoyama","dai",
       "ikiryo","shyythiel","ain","doctor","torako","eiko","hokori_gojo","shion",
       "kizu","darius","yoshinori","ghose","kaien","suzuki", "daisuke",
-      "cordyscomycetes","mayumi","ashigin",
+      "cordyscomycetes","mayumi","ashigin","sumire",
     "lastchapter")
     .orderBy("id","desc")
     .limit(10)
@@ -308,7 +308,7 @@ app.get("/get-user-data", authenticateToken,(req, res) => {
     "kairijo","aki","toru","aoyama","dai",
     "ikiryo","shyythiel","ain","doctor","torako","eiko","hokori_gojo","shion",
     "kizu","darius","yoshinori","ghose","kaien","suzuki","daisuke",
-    "cordyscomycetes","mayumi","ashigin",
+    "cordyscomycetes","mayumi","ashigin","sumire",
     "profit" /* "achievements", */
   )
     .from("users")
@@ -372,7 +372,7 @@ app.post("/login-user", (req, res) => {
     "kairijo","aki","toru","aoyama","dai",
     "ikiryo","shyythiel","ain","doctor","torako","eiko","hokori_gojo","shion",
     "kizu","darius","yoshinori","ghose","kaien","suzuki","daisuke",
-    "cordyscomycetes","mayumi","ashigin",
+    "cordyscomycetes","mayumi","ashigin","sumire",
     "profit"  
   )
     .from("users")
@@ -459,7 +459,7 @@ app.post("/buy-stock",authenticateToken, (req, res) => {
     "sora","kairijo","aki","toru","aoyama","dai",
     "ikiryo","shyythiel","ain","doctor","torako","eiko","hokori_gojo","shion",
     "kizu","darius","yoshinori","ghose","kaien","suzuki","daisuke",
-    "cordyscomycetes","mayumi","ashigin"
+    "cordyscomycetes","mayumi","ashigin","sumire"
   )
     .from("stockvalues")
     .where("id", maxID)
@@ -571,7 +571,7 @@ app.post("/sell-stock",authenticateToken, (req, res) => {
     "sora","kairijo","aki","toru","aoyama","dai",
     "ikiryo","shyythiel","ain","doctor","torako","eiko","hokori_gojo","shion",
     "kizu","darius","yoshinori","ghose","kaien","suzuki","daisuke",
-    "cordyscomycetes","mayumi","ashigin"
+    "cordyscomycetes","mayumi","ashigin","sumire"
   )
     .from("stockvalues")
     .where("id", maxID)

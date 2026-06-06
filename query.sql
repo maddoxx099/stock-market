@@ -19,7 +19,8 @@ INSERT INTO stockvalues (ashaf, jukusuke, ryuuichi,
                         shion,kizu,darius,
                         yoshinori,ghose,kaien,
                         suzuki,daisuke,cordyscomycetes,
-                        mayumi,ashigin,lastchapter)
+                        mayumi,ashigin,sumire,
+                        lastchapter)
 VALUES (27 , 59.92 , 46.36 , 
         31.16 , 36.63 , 37.07, 29.43, 
         27.29, 25.44, 32, 29.2, 
@@ -41,4 +42,5 @@ VALUES (27 , 59.92 , 46.36 ,
         1, 20.5, 22.5, 
         22.4, 20, 20, 
         22.45 ,20, 20,
-        20,20, 25);
+        20,20, 20,
+        25);

@@ -130,6 +130,7 @@ const validateData = (data)=>{
         sessionStorage.cordyscomycetes = data.cordyscomycetes;
         sessionStorage.mayumi = data.mayumi;
         sessionStorage.ashigin = data.ashigin;
+        sessionStorage.sumire = data.sumire;
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }
